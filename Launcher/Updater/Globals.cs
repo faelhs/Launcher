@@ -5,7 +5,7 @@ namespace Launcher
     class Globals
     {
         public static string ServerURL      = "http://everymu.net/patch/";
-        public static string sitelauncher   = "http://everymu.net/launcher/";
+        public static string sitelauncher   = "http://127.0.0.1/a.html";
         public static string webrequest     = "http://everymu.net/system/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "DraconicK.exe";

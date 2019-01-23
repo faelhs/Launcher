@@ -69,15 +69,17 @@ namespace Launcher
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
             Attualizar();
             Status_server();
             navegador.Navigate(Globals.sitelauncher);
             if (Common.IsGameRunning()) { Common.EnableStart(); }
-            if (Globals.logado)
-            {
-                btconta.Text = "Bem Vindo " + Globals.login;
-            }
-
+            
+            /*   if (Globals.logado)
+               {
+                   btconta.Text = "Bem Vindo " + Globals.login;
+               }
+               */
         }
 
         private void btsair_Click(object sender, EventArgs e)
@@ -167,6 +169,16 @@ namespace Launcher
 
             }
         }
+
+        private void onfocus(object sender, EventArgs e)
+        {
+            this.BackColor = Color.FromArgb(246,66,66);
+        }
+        private void ondefocus(object sender, EventArgs e)
+        {
+            this.BackColor = Color.FromArgb(246, 46, 46);
+        }
+
     }
 
 }

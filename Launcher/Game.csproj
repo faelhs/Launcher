@@ -115,6 +115,9 @@
     </Compile>
     <Compile Include="Funções.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\RecuperarSenha.cs">
       <SubType>Form</SubType>
@@ -133,6 +136,11 @@
     </Compile>
     <Compile Include="Forms\TrocarSenha.Designer.cs">
       <DependentUpon>TrocarSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Updater\Common.cs" />
     <Compile Include="Updater\Computer.cs" />
@@ -168,13 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Forms\RecuperarSenha.resx">
       <DependentUpon>RecuperarSenha.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +203,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mu Draconick.ico" />
+    <None Include="Resources\oie_23171826rtY6zFgM.png" />
+    <None Include="Resources\button2.png" />
+    <None Include="Resources\índice2.jpg" />
+    <None Include="Resources\min.PNG" />
+    <None Include="Resources\close.PNG" />
+    <None Include="Resources\button.PNG" />
+    <None Include="Resources\bg.PNG" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
