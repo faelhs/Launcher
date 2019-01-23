@@ -1,0 +1,7 @@
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\bin\Debug\David.Lister.exe
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\bin\Debug\David.Lister.pdb
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.lForm.resources
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.Properties.Resources.resources
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.csproj.GenerateResource.Cache
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.exe
+C:\Users\Rafael\Desktop\game-patcher-master\game-patcher-master\Source\David.Lister\obj\Debug\David.Lister.pdb

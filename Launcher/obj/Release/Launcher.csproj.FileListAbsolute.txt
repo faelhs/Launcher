@@ -1,0 +1,15 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.Acc.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.Main.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.Opcoes.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.Properties.Resources.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.RecuperarSenha.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.Registro.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.TrocarSenha.resources
+c:\users\rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.csproj.GenerateResource.Cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.BuyVip.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Launcher.MinhaConta.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\bin\Release\Game.exe.config
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\bin\Release\Game.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\bin\Release\Game.pdb
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Game.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Release\Game.pdb

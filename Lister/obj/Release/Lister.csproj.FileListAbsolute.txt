@@ -1,0 +1,10 @@
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\bin\Release\David.Lister.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\bin\Release\David.Lister.pdb
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\bin\Release\David.Lister.exe.CodeAnalysisLog.xml
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\bin\Release\David.Lister.exe.lastcodeanalysissucceeded
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\Lister.csprojResolveAssemblyReference.cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.lForm.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.Properties.Resources.resources
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\Lister.csproj.GenerateResource.Cache
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.exe
+C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.pdb
