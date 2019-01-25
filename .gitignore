@@ -1,0 +1,7 @@
+.vs/*
+Launcher/bin/*
+Launcher/obj/*
+Launcher_Updater/bin/*
+Launcher_Updater/obj/*
+Lister/obj/*
+Lister/bin/*
