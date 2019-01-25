@@ -45,7 +45,7 @@ namespace Launcher
           
                 try
                 {
-                    lbstatus.Text = "Login server: " + Funções.Online("66.70.203.161", 44405) + " | GameServer: " + Funções.Online("66.70.203.161", 55300);
+                    lbstatus.Text = "Login server: " + Funções.Online(Globals.hostip, Globals.loginport) + " | GameServer: " + Funções.Online(Globals.hostip, Globals.gsport);
                 }catch
                 {
                     lbstatus.Text = "Login server: Falha | GameServer: Falha";

@@ -1,16 +1,21 @@
 ﻿using System.Collections.Generic;
+using System.Net;
 
 namespace Launcher
 {
     class Globals
     {
-        public static string ServerURL      = "http://everymu.net/patch/";
-        public static string sitelauncher   = "http://127.0.0.1/a.html";
-        public static string webrequest     = "http://everymu.net/system/";
+        public static IPAddress x = Dns.GetHostAddresses("vpnmicropro.ddns.net")[0];
+        public static string hostip = x.ToString();
+        public static int loginport = 44444;
+        public static int gsport = 55300;
+        public static string ServerURL      = "http://"+hostip+":88/patch/";
+        public static string sitelauncher   = "http://"+hostip+":88/a.html";
+        public static string webrequest     = "http://"+hostip+":88/system/";
         public static string PatchlistName  = "patchlist.txt";
-        public static string BinaryName     = "DraconicK.exe";
+        public static string BinaryName     = "Mu Online.exe";
         public static string directory      = "Bin";
-        public static string startparam     = "connect /u66.70.203.161 /p44405";
+        public static string startparam     = "connect /u"+hostip+" /p"+loginport;
         public static string login          = "";
         public static string senha          = "";
         public static string donate         = "1";

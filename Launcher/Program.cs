@@ -19,7 +19,8 @@ namespace Launcher
         [STAThread]
         static void Main(string[] args)
         {
-          /*  try
+        #if (!DEBUG)
+            try
             {
                 if (args[0] == "draconickbyfaelhs")
                 {
@@ -36,12 +37,14 @@ namespace Launcher
             catch
             {
                 MessageBox.Show("Execute o jogo pelo launcher!");
-            }*/
-            
+            }
+#endif
+#if DEBUG
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
             
+#endif
         }
     }
 }
