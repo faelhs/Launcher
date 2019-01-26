@@ -139,8 +139,24 @@ namespace Launcher
             return resposta;
         }
 
+        public static async Task<string> Getnotify()
+        {
+            try
+            { 
+                var response = await client.GetAsync(Globals.webrequest + "getnotify.txt");
 
-        
+                var responseString = await response.Content.ReadAsStringAsync();
+
+                string test = Funções.LimpaString(responseString);
+
+                return test;
+            }
+            catch
+            {
+                return "Erro de solicitação";
+            }
+        }
+
         public async static Task <string[]> logar()
         {
             var values = new Dictionary<string, string>

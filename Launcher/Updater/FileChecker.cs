@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -30,6 +31,9 @@ namespace Launcher
             else
             {
                 backgroundWorker.RunWorkerAsync();
+                Globals.pForm.notificacoes.Icon = new Icon(Globals.Icon());
+                Globals.pForm.notificacoes.BalloonTipText = "Verificando atualizações";
+                Globals.pForm.notificacoes.ShowBalloonTip(1500);
             }
         }
 

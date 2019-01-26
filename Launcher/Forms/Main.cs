@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.IO;
 
 namespace Launcher
 
@@ -66,20 +67,26 @@ namespace Launcher
                 }
 
         }
-
+        private async Task notificaçãoAsync()
+        {
+            Globals.pForm.notificacoes.Icon = new Icon(Globals.Icon());
+            Globals.pForm.notificacoes.BalloonTipText = await Funções.Getnotify();
+            Globals.pForm.notificacoes.ShowBalloonTip(1500);
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
            
             Attualizar();
             Status_server();
             navegador.Navigate(Globals.sitelauncher);
+            notificaçãoAsync();
             if (Common.IsGameRunning()) { Common.EnableStart(); }
             
-            /*   if (Globals.logado)
+            if (Globals.logado)
                {
                    btconta.Text = "Bem Vindo " + Globals.login;
                }
-               */
+               
         }
 
         private void btsair_Click(object sender, EventArgs e)
@@ -179,6 +186,16 @@ namespace Launcher
             this.BackColor = Color.FromArgb(246, 46, 46);
         }
 
+        private void Gosite_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://PGBrasil.net");
+        }
+
+        private void Goforum_Click(object sender, EventArgs e)
+        {
+
+            System.Diagnostics.Process.Start("http://forum.PGBrasil.net");
+        }
     }
 
 }

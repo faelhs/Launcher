@@ -71,6 +71,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Button1.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\Acc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,7 +205,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Mu Draconick.ico" />
+    <None Include="Mu Draconick.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\oie_23171826rtY6zFgM.png" />
     <None Include="Resources\button2.png" />
     <None Include="Resources\índice2.jpg" />

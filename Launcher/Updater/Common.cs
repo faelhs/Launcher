@@ -1,8 +1,10 @@
 ﻿using Cyclic.Redundancy.Check;
 using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 
 namespace Launcher
 {
@@ -54,6 +56,9 @@ namespace Launcher
         public static void EnableStart()
         {
             Globals.pForm.btjogar.Enabled = true;
+            Globals.pForm.notificacoes.Icon = new Icon(Globals.Icon());
+            Globals.pForm.notificacoes.BalloonTipText = "Pronto para jogar";
+            Globals.pForm.notificacoes.ShowBalloonTip(1500);
         }
 
         public static bool IsGameRunning()

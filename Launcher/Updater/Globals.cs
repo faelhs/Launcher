@@ -1,17 +1,20 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net;
+using System.Reflection;
 
 namespace Launcher
 {
     class Globals
     {
-        public static IPAddress x = Dns.GetHostAddresses("vpnmicropro.ddns.net")[0];
+        public static IPAddress x = Dns.GetHostAddresses("127.0.0.1")[0];
         public static string hostip = x.ToString();
         public static int loginport = 44444;
         public static int gsport = 55300;
-        public static string ServerURL      = "http://"+hostip+":88/patch/";
-        public static string sitelauncher   = "http://"+hostip+":88/a.html";
-        public static string webrequest     = "http://"+hostip+":88/system/";
+        public static string ServerURL      = "http://"+hostip+"/patch/";
+        public static string sitelauncher   = "http://"+hostip+"/launcher/";
+        public static string webrequest     = "http://"+hostip+"/system/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "Mu Online.exe";
         public static string directory      = "Bin";
@@ -37,6 +40,13 @@ namespace Launcher
             public string Name;
             public string Hash;
             public long   Size;
+        }
+        public static string Icon()
+        {
+            var outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
+            var iconPath = Path.Combine(outPutDirectory, "Mu Draconick.ico");
+            string icon_path = new Uri(iconPath).LocalPath;
+            return icon_path;
         }
     }
 }

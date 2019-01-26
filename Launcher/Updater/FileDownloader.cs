@@ -27,7 +27,6 @@ namespace Launcher
             {
                 Common.ChangeStatus(Texts.Keys.DOWNLOADCOMPLETE);
                 Common.EnableStart();
-                
                 return;
             }
 
