@@ -19,10 +19,10 @@ namespace Launcher
         [STAThread]
         static void Main(string[] args)
         {
-        #if (!DEBUG)
+#if (!DEBUG)
             try
             {
-                if (args[0] == "draconickbyfaelhs")
+                if (args[0] == "PGBrasilMuOnline")
                 {
                     Application.EnableVisualStyles();
                     Application.SetCompatibleTextRenderingDefault(false);

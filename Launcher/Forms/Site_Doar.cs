@@ -27,7 +27,7 @@ namespace Launcher.Forms
 
         private void On_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("http://draconick.ddns.net/pagseguro/");
+            webBrowser1.Navigate("http://"+Globals.hostip+"/pagseguro/");
         }
 
         private void label2_Click(object sender, EventArgs e)

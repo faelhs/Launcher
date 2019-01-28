@@ -8,7 +8,7 @@ namespace Launcher
 {
     class Globals
     {
-        public static IPAddress x = Dns.GetHostAddresses("127.0.0.1")[0];
+        public static IPAddress x = Dns.GetHostAddresses("muonline.pgbrasil.net")[0];
         public static string hostip = x.ToString();
         public static int loginport = 44444;
         public static int gsport = 55300;
@@ -16,7 +16,7 @@ namespace Launcher
         public static string sitelauncher   = "http://"+hostip+"/launcher/";
         public static string webrequest     = "http://"+hostip+"/system/";
         public static string PatchlistName  = "patchlist.txt";
-        public static string BinaryName     = "Mu Online.exe";
+        public static string BinaryName     = "MuOnline.exe";
         public static string directory      = "Bin";
         public static string startparam     = "connect /u"+hostip+" /p"+loginport;
         public static string login          = "";
@@ -44,7 +44,7 @@ namespace Launcher
         public static string Icon()
         {
             var outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
-            var iconPath = Path.Combine(outPutDirectory, "Mu Draconick.ico");
+            var iconPath = Path.Combine(outPutDirectory, "ico.ico");
             string icon_path = new Uri(iconPath).LocalPath;
             return icon_path;
         }

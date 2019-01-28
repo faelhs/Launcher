@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.currentProgress = new System.Windows.Forms.ProgressBar();
-            this.completeProgress = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
+            this.completeProgress = new QuantumConcepts.Common.Forms.UI.Controls.ProgressBarEx();
             this.SuspendLayout();
             // 
             // currentProgress
@@ -43,33 +43,39 @@
             this.currentProgress.TabIndex = 10;
             this.currentProgress.Value = 100;
             // 
-            // completeProgress
-            // 
-            this.completeProgress.Location = new System.Drawing.Point(12, 39);
-            this.completeProgress.Name = "completeProgress";
-            this.completeProgress.Size = new System.Drawing.Size(436, 21);
-            this.completeProgress.TabIndex = 9;
-            this.completeProgress.Value = 100;
-            this.completeProgress.Click += new System.EventHandler(this.completeProgress_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.BackColor = System.Drawing.Color.Orange;
+            this.label1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(0, 7);
+            this.label1.MinimumSize = new System.Drawing.Size(460, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.Size = new System.Drawing.Size(460, 20);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Mu-DraconicK";
+            this.label1.Text = "Loading...";
+            // 
+            // completeProgress
+            // 
+            this.completeProgress.BackColor = System.Drawing.Color.DarkOrange;
+            this.completeProgress.ForeColor = System.Drawing.Color.Orange;
+            this.completeProgress.Location = new System.Drawing.Point(0, 36);
+            this.completeProgress.Name = "completeProgress";
+            this.completeProgress.Size = new System.Drawing.Size(460, 30);
+            this.completeProgress.TabIndex = 10;
+            this.completeProgress.Value = 100;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 73);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.ClientSize = new System.Drawing.Size(460, 75);
             this.ControlBox = false;
+            this.Controls.Add(this.completeProgress);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.currentProgress);
-            this.Controls.Add(this.completeProgress);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -83,8 +89,8 @@
 
         #endregion
         public System.Windows.Forms.ProgressBar currentProgress;
-        public System.Windows.Forms.ProgressBar completeProgress;
         private System.Windows.Forms.Label label1;
+        public QuantumConcepts.Common.Forms.UI.Controls.ProgressBarEx completeProgress;
     }
 }
 

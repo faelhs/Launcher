@@ -8,3 +8,12 @@ C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Releas
 C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\Lister.csproj.GenerateResource.Cache
 C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.exe
 C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Lister\obj\Release\David.Lister.pdb
+C:\Users\Rafael\MuDraconick\launcher\Lister\bin\Release\Gerador de Updates.exe
+C:\Users\Rafael\MuDraconick\launcher\Lister\bin\Release\Gerador de Updates.pdb
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Lister.csprojAssemblyReference.cache
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\David.Lister.lForm.resources
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\David.Lister.Properties.Resources.resources
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Lister.csproj.GenerateResource.cache
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Lister.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Gerador de Updates.exe
+C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Gerador de Updates.pdb

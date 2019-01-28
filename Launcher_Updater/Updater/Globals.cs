@@ -4,13 +4,13 @@ namespace Launcher
 {
     class Globals
     {
-        public static string ServerURL      = "http://draconick.ddns.net/uplauncher/";
-        public static string sitelauncher   = "http://draconick.ddns.net/launcher/";
-        public static string webrequest     = "http://draconick.ddns.net/system/";
+        public static string ServerURL      = "http://muonline.pgbrasil.net/uplauncher/";
+        public static string sitelauncher   = "http://muonline.pgbrasil.net/launcher/";
+        public static string webrequest     = "http://muonline.pgbrasil.net/system/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "Game.exe";
         public static string directory      = "";
-        public static string startparam     = "draconickbyfaelhs";
+        public static string startparam     = "PGBrasilMuOnline";
         public static string login          = "";
         public static string senha          = "";
         public static bool logado           = false;

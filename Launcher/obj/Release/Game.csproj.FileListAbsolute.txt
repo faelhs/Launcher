@@ -34,3 +34,4 @@ C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Release\Game.csproj.GenerateRe
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Release\Game.csproj.CoreCompileInputs.cache
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Release\Game.exe
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Release\Game.pdb
+C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Release\Mu Draconick.ico

@@ -100,6 +100,9 @@
     </Compile>
     <Compile Include="Funções.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\RecuperarSenha.cs">
       <SubType>Form</SubType>
