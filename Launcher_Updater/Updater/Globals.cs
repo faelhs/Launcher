@@ -4,9 +4,9 @@ namespace Launcher
 {
     class Globals
     {
-        public static string ServerURL      = "http://muonline.pgbrasil.net/uplauncher/";
-        public static string sitelauncher   = "http://muonline.pgbrasil.net/launcher/";
-        public static string webrequest     = "http://muonline.pgbrasil.net/system/";
+        public static string ServerURL      = "http://vpnmicropro.ddns.net:88/uplauncher/";
+        public static string sitelauncher   = "http://vpnmicropro.ddns.net:88/launcher/";
+        public static string webrequest     = "http://vpnmicropro.ddns.net:88/system/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "Game.exe";
         public static string directory      = "";

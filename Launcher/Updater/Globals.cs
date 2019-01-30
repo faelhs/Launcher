@@ -8,13 +8,13 @@ namespace Launcher
 {
     class Globals
     {
-        public static IPAddress x = Dns.GetHostAddresses("muonline.pgbrasil.net")[0];
+        public static IPAddress x = Dns.GetHostAddresses("vpnmicropro.ddns.net")[0];
         public static string hostip = x.ToString();
         public static int loginport = 44444;
         public static int gsport = 55300;
-        public static string ServerURL      = "http://"+hostip+"/patch/";
-        public static string sitelauncher   = "http://"+hostip+"/launcher/";
-        public static string webrequest     = "http://"+hostip+"/system/";
+        public static string ServerURL      = "http://"+hostip+ ":88/patch/";
+        public static string sitelauncher   = "http://"+hostip+ ":88/launcher/";
+        public static string webrequest     = "http://"+hostip+ ":88/system/";
         public static string PatchlistName  = "patchlist.txt";
         public static string BinaryName     = "MuOnline.exe";
         public static string directory      = "Bin";

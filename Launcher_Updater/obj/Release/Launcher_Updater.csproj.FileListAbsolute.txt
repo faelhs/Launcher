@@ -29,3 +29,4 @@ C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher_Updat
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher_Updater.csproj.CoreCompileInputs.cache
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.exe
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.pdb
+C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher_Updater.csprojAssemblyReference.cache
