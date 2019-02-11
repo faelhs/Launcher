@@ -121,16 +121,7 @@ namespace Launcher
 
         private void btconta_Click(object sender, EventArgs e)
         {
-            if (!Globals.logado)
-            {
-                Acc gerenciar = new Acc();
-                gerenciar.ShowDialog();
-            }
-            else
-            {
-                MinhaConta my = new MinhaConta();
-                my.ShowDialog();
-            }
+            System.Diagnostics.Process.Start("http://drash.PGBrasil.tk");
         }
 
         private void btopcoes_Click(object sender, EventArgs e)
@@ -188,13 +179,13 @@ namespace Launcher
 
         private void Gosite_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://PGBrasil.net");
+            System.Diagnostics.Process.Start("http://PGBrasil.tk");
         }
 
         private void Goforum_Click(object sender, EventArgs e)
         {
 
-            System.Diagnostics.Process.Start("http://forum.PGBrasil.net");
+            System.Diagnostics.Process.Start("http://forum.PGBrasil.tk");
         }
     }
 

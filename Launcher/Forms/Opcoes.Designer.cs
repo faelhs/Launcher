@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Opcoes));
-            this.lbtitulo = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tblogin = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -43,155 +42,201 @@
             this.btcancelar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.ckjanela = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lbtitulo
-            // 
-            this.lbtitulo.AutoSize = true;
-            this.lbtitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.lbtitulo.Location = new System.Drawing.Point(5, 10);
-            this.lbtitulo.MinimumSize = new System.Drawing.Size(220, 20);
-            this.lbtitulo.Name = "lbtitulo";
-            this.lbtitulo.Size = new System.Drawing.Size(220, 25);
-            this.lbtitulo.TabIndex = 0;
-            this.lbtitulo.Text = "Opções";
-            this.lbtitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 56);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.label1.Font = new System.Drawing.Font("Impact", 12F);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(6, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.Size = new System.Drawing.Size(43, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Login";
             // 
             // tblogin
             // 
-            this.tblogin.Location = new System.Drawing.Point(51, 53);
+            this.tblogin.Font = new System.Drawing.Font("Impact", 12F);
+            this.tblogin.Location = new System.Drawing.Point(53, 49);
             this.tblogin.MaxLength = 10;
             this.tblogin.Name = "tblogin";
-            this.tblogin.Size = new System.Drawing.Size(167, 20);
+            this.tblogin.Size = new System.Drawing.Size(167, 27);
             this.tblogin.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 91);
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.label2.Font = new System.Drawing.Font("Impact", 12F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(6, 89);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.Size = new System.Drawing.Size(81, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Resolução:";
             // 
             // ckefeitos
             // 
             this.ckefeitos.AutoSize = true;
+            this.ckefeitos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ckefeitos.Font = new System.Drawing.Font("Impact", 10F);
+            this.ckefeitos.ForeColor = System.Drawing.Color.White;
             this.ckefeitos.Location = new System.Drawing.Point(15, 201);
             this.ckefeitos.Name = "ckefeitos";
-            this.ckefeitos.Size = new System.Drawing.Size(58, 17);
+            this.ckefeitos.Size = new System.Drawing.Size(66, 22);
             this.ckefeitos.TabIndex = 4;
             this.ckefeitos.Text = "Efeitos";
-            this.ckefeitos.UseVisualStyleBackColor = true;
+            this.ckefeitos.UseVisualStyleBackColor = false;
             // 
             // ckmusica
             // 
             this.ckmusica.AutoSize = true;
+            this.ckmusica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ckmusica.Font = new System.Drawing.Font("Impact", 10F);
+            this.ckmusica.ForeColor = System.Drawing.Color.White;
             this.ckmusica.Location = new System.Drawing.Point(140, 201);
             this.ckmusica.Name = "ckmusica";
-            this.ckmusica.Size = new System.Drawing.Size(60, 17);
+            this.ckmusica.Size = new System.Drawing.Size(69, 22);
             this.ckmusica.TabIndex = 5;
             this.ckmusica.Text = "Musica";
-            this.ckmusica.UseVisualStyleBackColor = true;
+            this.ckmusica.UseVisualStyleBackColor = false;
             // 
             // rdres1
             // 
             this.rdres1.AutoSize = true;
+            this.rdres1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres1.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres1.ForeColor = System.Drawing.Color.White;
             this.rdres1.Location = new System.Drawing.Point(15, 121);
             this.rdres1.Name = "rdres1";
-            this.rdres1.Size = new System.Drawing.Size(66, 17);
+            this.rdres1.Size = new System.Drawing.Size(76, 22);
             this.rdres1.TabIndex = 6;
             this.rdres1.TabStop = true;
             this.rdres1.Text = "640x480";
-            this.rdres1.UseVisualStyleBackColor = true;
+            this.rdres1.UseVisualStyleBackColor = false;
             // 
             // rdres2
             // 
             this.rdres2.AutoSize = true;
+            this.rdres2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres2.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres2.ForeColor = System.Drawing.Color.White;
             this.rdres2.Location = new System.Drawing.Point(140, 121);
             this.rdres2.Name = "rdres2";
-            this.rdres2.Size = new System.Drawing.Size(66, 17);
+            this.rdres2.Size = new System.Drawing.Size(78, 22);
             this.rdres2.TabIndex = 7;
             this.rdres2.TabStop = true;
             this.rdres2.Text = "800x600";
-            this.rdres2.UseVisualStyleBackColor = true;
+            this.rdres2.UseVisualStyleBackColor = false;
             // 
             // rdres3
             // 
             this.rdres3.AutoSize = true;
-            this.rdres3.Location = new System.Drawing.Point(15, 144);
+            this.rdres3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres3.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres3.ForeColor = System.Drawing.Color.White;
+            this.rdres3.Location = new System.Drawing.Point(15, 147);
             this.rdres3.Name = "rdres3";
-            this.rdres3.Size = new System.Drawing.Size(72, 17);
+            this.rdres3.Size = new System.Drawing.Size(78, 22);
             this.rdres3.TabIndex = 8;
             this.rdres3.TabStop = true;
             this.rdres3.Text = "1024x768";
-            this.rdres3.UseVisualStyleBackColor = true;
+            this.rdres3.UseVisualStyleBackColor = false;
             // 
             // rdres4
             // 
             this.rdres4.AutoSize = true;
-            this.rdres4.Location = new System.Drawing.Point(140, 144);
+            this.rdres4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres4.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres4.ForeColor = System.Drawing.Color.White;
+            this.rdres4.Location = new System.Drawing.Point(140, 147);
             this.rdres4.Name = "rdres4";
-            this.rdres4.Size = new System.Drawing.Size(78, 17);
+            this.rdres4.Size = new System.Drawing.Size(85, 22);
             this.rdres4.TabIndex = 9;
             this.rdres4.TabStop = true;
             this.rdres4.Text = "1280x1024";
-            this.rdres4.UseVisualStyleBackColor = true;
+            this.rdres4.UseVisualStyleBackColor = false;
             // 
             // btaplicar
             // 
-            this.btaplicar.Location = new System.Drawing.Point(30, 258);
+            this.btaplicar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btaplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btaplicar.Font = new System.Drawing.Font("Impact", 12F);
+            this.btaplicar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btaplicar.Location = new System.Drawing.Point(3, 262);
             this.btaplicar.Name = "btaplicar";
-            this.btaplicar.Size = new System.Drawing.Size(80, 30);
+            this.btaplicar.Size = new System.Drawing.Size(110, 36);
             this.btaplicar.TabIndex = 10;
             this.btaplicar.Text = "Aplicar";
-            this.btaplicar.UseVisualStyleBackColor = true;
+            this.btaplicar.UseVisualStyleBackColor = false;
             this.btaplicar.Click += new System.EventHandler(this.btaplicar_Click);
             // 
             // btcancelar
             // 
-            this.btcancelar.Location = new System.Drawing.Point(120, 258);
+            this.btcancelar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btcancelar.Font = new System.Drawing.Font("Impact", 12F);
+            this.btcancelar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btcancelar.Location = new System.Drawing.Point(116, 262);
             this.btcancelar.Name = "btcancelar";
-            this.btcancelar.Size = new System.Drawing.Size(80, 30);
+            this.btcancelar.Size = new System.Drawing.Size(110, 36);
             this.btcancelar.TabIndex = 10;
             this.btcancelar.Text = "Cancelar";
-            this.btcancelar.UseVisualStyleBackColor = true;
+            this.btcancelar.UseVisualStyleBackColor = false;
             this.btcancelar.Click += new System.EventHandler(this.btcancelar_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 174);
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.label3.Font = new System.Drawing.Font("Impact", 12F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(6, 172);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(44, 20);
             this.label3.TabIndex = 11;
             this.label3.Text = "Sons:";
             // 
             // ckjanela
             // 
             this.ckjanela.AutoSize = true;
-            this.ckjanela.Location = new System.Drawing.Point(15, 224);
+            this.ckjanela.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ckjanela.Font = new System.Drawing.Font("Impact", 10F);
+            this.ckjanela.ForeColor = System.Drawing.Color.White;
+            this.ckjanela.Location = new System.Drawing.Point(15, 227);
             this.ckjanela.Name = "ckjanela";
-            this.ckjanela.Size = new System.Drawing.Size(87, 17);
+            this.ckjanela.Size = new System.Drawing.Size(97, 22);
             this.ckjanela.TabIndex = 12;
             this.ckjanela.Text = "Modo Janela";
-            this.ckjanela.UseVisualStyleBackColor = true;
+            this.ckjanela.UseVisualStyleBackColor = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Orange;
+            this.label4.Font = new System.Drawing.Font("Impact", 15.25F);
+            this.label4.ForeColor = System.Drawing.SystemColors.Control;
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label4.Location = new System.Drawing.Point(0, 10);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.MinimumSize = new System.Drawing.Size(230, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(230, 30);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "O P Ç Õ E S";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Opcoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Launcher.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(230, 306);
             this.ControlBox = false;
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.ckjanela);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btcancelar);
@@ -205,7 +250,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tblogin);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.lbtitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Opcoes";
@@ -217,8 +261,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbtitulo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tblogin;
         private System.Windows.Forms.Label label2;
@@ -232,5 +274,6 @@
         private System.Windows.Forms.Button btcancelar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox ckjanela;
+        private System.Windows.Forms.Label label4;
     }
 }

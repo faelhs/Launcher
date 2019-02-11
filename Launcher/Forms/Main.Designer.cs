@@ -41,7 +41,6 @@
             this.lbstatus = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.navegador = new System.Windows.Forms.WebBrowser();
-            this.btregistro = new System.Windows.Forms.Button();
             this.btconta = new System.Windows.Forms.Button();
             this.gosite = new System.Windows.Forms.Button();
             this.notificacoes = new System.Windows.Forms.NotifyIcon(this.components);
@@ -197,21 +196,6 @@
             this.navegador.TabIndex = 8;
             this.navegador.Url = new System.Uri("", System.UriKind.Relative);
             // 
-            // btregistro
-            // 
-            this.btregistro.BackColor = System.Drawing.Color.DarkOrange;
-            this.btregistro.FlatAppearance.BorderSize = 0;
-            this.btregistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btregistro.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btregistro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btregistro.Location = new System.Drawing.Point(15, 166);
-            this.btregistro.Name = "btregistro";
-            this.btregistro.Size = new System.Drawing.Size(185, 50);
-            this.btregistro.TabIndex = 18;
-            this.btregistro.Text = "CADASTRE-SE";
-            this.btregistro.UseVisualStyleBackColor = false;
-            this.btregistro.Click += new System.EventHandler(this.btregistro_Click);
-            // 
             // btconta
             // 
             this.btconta.BackColor = System.Drawing.Color.DarkOrange;
@@ -219,11 +203,11 @@
             this.btconta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btconta.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btconta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btconta.Location = new System.Drawing.Point(15, 222);
+            this.btconta.Location = new System.Drawing.Point(15, 165);
             this.btconta.Name = "btconta";
             this.btconta.Size = new System.Drawing.Size(185, 50);
             this.btconta.TabIndex = 19;
-            this.btconta.Text = "ENTRAR";
+            this.btconta.Text = "MINHA CONTA";
             this.btconta.UseVisualStyleBackColor = false;
             this.btconta.Click += new System.EventHandler(this.btconta_Click);
             // 
@@ -234,7 +218,7 @@
             this.gosite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.gosite.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gosite.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gosite.Location = new System.Drawing.Point(15, 278);
+            this.gosite.Location = new System.Drawing.Point(15, 221);
             this.gosite.Name = "gosite";
             this.gosite.Size = new System.Drawing.Size(185, 50);
             this.gosite.TabIndex = 20;
@@ -254,7 +238,7 @@
             this.goforum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.goforum.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goforum.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.goforum.Location = new System.Drawing.Point(15, 334);
+            this.goforum.Location = new System.Drawing.Point(15, 277);
             this.goforum.Name = "goforum";
             this.goforum.Size = new System.Drawing.Size(185, 50);
             this.goforum.TabIndex = 21;
@@ -294,7 +278,6 @@
             this.Controls.Add(this.goforum);
             this.Controls.Add(this.gosite);
             this.Controls.Add(this.btconta);
-            this.Controls.Add(this.btregistro);
             this.Controls.Add(this.currentProgress);
             this.Controls.Add(this.completeProgress);
             this.Controls.Add(this.lbstatus);
@@ -335,7 +318,6 @@
         public QuantumConcepts.Common.Forms.UI.Controls.ProgressBarEx completeProgress;
         public QuantumConcepts.Common.Forms.UI.Controls.ProgressBarEx currentProgress;
         private System.Windows.Forms.WebBrowser navegador;
-        private System.Windows.Forms.Button btregistro;
         private System.Windows.Forms.Button btconta;
         private System.Windows.Forms.Button gosite;
         private System.Windows.Forms.Button goforum;
