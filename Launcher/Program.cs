@@ -19,7 +19,13 @@ namespace Launcher
         [STAThread]
         static void Main(string[] args)
         {
-#if (!DEBUG)
+#if DEBUG || MINE_DEBUG_ || RAG_DEBUG_
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Main());
+
+#endif
+#if RELEASE
             try
             {
                 if (args[0] == "PGBrasilMuOnline")
@@ -39,12 +45,47 @@ namespace Launcher
                 MessageBox.Show("Execute o jogo pelo launcher!");
             }
 #endif
-#if DEBUG
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
-            
+#if RAG_RELEASE_
+            try
+            {
+                if (args[0] == "PGBrasilRagnarok")
+                {
+                    Application.EnableVisualStyles();
+                    Application.SetCompatibleTextRenderingDefault(false);
+                    Application.Run(new Main());
+                }
+                else
+                {
+                    MessageBox.Show("Execute o jogo pelo launcher original !");
+
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Execute o jogo pelo launcher!");
+            }
 #endif
+#if MINE_RELEASE_
+            try
+            {
+                if (args[0] == "PGBrasilMinecraft")
+                {
+                    Application.EnableVisualStyles();
+                    Application.SetCompatibleTextRenderingDefault(false);
+                    Application.Run(new Main());
+                }
+                else
+                {
+                    MessageBox.Show("Execute o jogo pelo launcher original !");
+
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Execute o jogo pelo launcher!");
+            }
+#endif
+
         }
     }
 }

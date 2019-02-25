@@ -1,22 +1,7 @@
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\bin\Debug\Game.exe.config
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\bin\Debug\Game.exe
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\bin\Debug\Game.pdb
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Acc.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.BuyVip.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Forms.Site_Doar.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Forms.Doar.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Main.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.MinhaConta.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Opcoes.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.RecuperarSenha.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.Registro.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Launcher.TrocarSenha.resources
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Game.csproj.GenerateResource.Cache
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Game.exe
-C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Launcher\Launcher\obj\Debug\Game.pdb
-C:\Users\Rafael\documents\visual studio 2015\Projects\Launcher\Launcher\obj\Debug\Game.csprojResolveAssemblyReference.cache
-C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Mu Draconick.ico
+C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.exe.config
+C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.exe
+C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.pdb
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Launcher.Acc.resources
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Launcher.BuyVip.resources
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Launcher.Forms.Site_Doar.resources
@@ -32,27 +17,3 @@ C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.csproj.GenerateReso
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.csproj.CoreCompileInputs.cache
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.exe
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.pdb
-C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.exe.config
-C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.exe
-C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Game.pdb
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\bin\Debug\Game.exe.config
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\bin\Debug\Game.exe
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\bin\Debug\Game.pdb
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Acc.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.BuyVip.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Forms.Site_Doar.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Forms.Doar.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Main.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.MinhaConta.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Opcoes.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.RecuperarSenha.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.Registro.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Launcher.TrocarSenha.resources
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Game.csproj.GenerateResource.cache
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Game.csproj.CoreCompileInputs.cache
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Game.exe
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Game.pdb
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\obj\Debug\Game.csprojAssemblyReference.cache
-C:\Users\Mini\Documents\Visual Studio 2019\DraconicK\launcher\Launcher\bin\Debug\Mu Draconick.ico
-C:\Users\Rafael\MuDraconick\launcher\Launcher\bin\Debug\Mu Draconick.ico

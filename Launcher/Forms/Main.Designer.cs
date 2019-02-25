@@ -166,7 +166,7 @@
             this.lbstatus.Name = "lbstatus";
             this.lbstatus.Size = new System.Drawing.Size(300, 15);
             this.lbstatus.TabIndex = 16;
-            this.lbstatus.Text = "Status do Servidor";
+            this.lbstatus.Text = "Recebendo Status do Servidor";
             this.lbstatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3

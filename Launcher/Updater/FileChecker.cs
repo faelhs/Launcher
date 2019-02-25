@@ -31,14 +31,14 @@ namespace Launcher
             else
             {
                 backgroundWorker.RunWorkerAsync();
-                Globals.pForm.notificacoes.Icon = new Icon(Globals.Icon());
-                Globals.pForm.notificacoes.BalloonTipText = "Verificando atualizações";
-                Globals.pForm.notificacoes.ShowBalloonTip(1500);
             }
         }
 
         private static void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         {
+            Globals.pForm.notificacoes.Icon = Properties.Resources.ico;
+            Globals.pForm.notificacoes.BalloonTipText = "Baixando atualizações";
+            Globals.pForm.notificacoes.ShowBalloonTip(1500);
             foreach (Globals.File file in Globals.Files)
             {
                 Globals.FullSize += file.Size;

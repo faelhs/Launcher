@@ -56,14 +56,16 @@ namespace Launcher
         public static void EnableStart()
         {
             Globals.pForm.btjogar.Enabled = true;
-            Globals.pForm.notificacoes.Icon = new Icon(Globals.Icon());
+            Globals.pForm.notificacoes.Icon = Properties.Resources.ico;
             Globals.pForm.notificacoes.BalloonTipText = "Pronto para jogar";
             Globals.pForm.notificacoes.ShowBalloonTip(1500);
         }
 
         public static bool IsGameRunning()
         {
+
             return Process.GetProcessesByName(Globals.BinaryName).FirstOrDefault(p => p.MainModule.FileName.StartsWith("")) != default(Process);
+
         }
     }
 }
