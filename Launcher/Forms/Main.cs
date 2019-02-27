@@ -56,6 +56,17 @@ namespace Launcher
         {
             while (true)
             {
+#if RAG_DEBUG_ || RAG_RELEASE_
+                 try
+                {
+                    SetText("Login server: " + Funções.Online(Globals.hostip, Globals.loginport) + " | CharServer: " + Funções.Online(Globals.hostip, Globals.charport)+ " | MapServer: " + Funções.Online(Globals.hostip, Globals.mapport));
+                }
+                catch
+                {
+                    SetText("Login server: Falha | CharServer: Falha | MapServer: Falha");
+                }
+                Thread.Sleep(10000);
+#else
                 try
                 {
                     SetText("Login server: " + Funções.Online(Globals.hostip, Globals.loginport) + " | GameServer: " + Funções.Online(Globals.hostip, Globals.gsport));
@@ -65,6 +76,7 @@ namespace Launcher
                     SetText("Login server: Falha | GameServer: Falha");
                 }
                 Thread.Sleep(10000);
+#endif
             }
         }
         private void DefinirTexto(string texto)

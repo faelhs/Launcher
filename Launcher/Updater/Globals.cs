@@ -23,17 +23,18 @@ namespace Launcher
         public static string startparam     = "connect /u"+hostip+" /p"+loginport;
 #endif
 #if RAG_DEBUG_ || RAG_RELEASE_
-        public static IPAddress x = Dns.GetHostAddresses("muonline.pgbrasil.net")[0];
+        public static IPAddress x = Dns.GetHostAddresses("ragnarok.pgbrasil.net")[0];
         public static string hostip = x.ToString();
         public static string ServerURL = "http://" + hostip + "/patch/";
-        public static string sitelauncher = "http://" + hostip + "/launcher/indexb.html";
+        public static string sitelauncher = "http://" + hostip + "/launcher/";
         public static string webrequest = "http://" + hostip + "/system/";
         public static string PatchlistName = "patchlist.txt";
-        public static int loginport = 44444;
-        public static int gsport = 55300;
+        public static int loginport = 6900;
+        public static int charport = 6121;
+        public static int mapport = 5121;
         public static string BinaryName = "Ragnarok.exe";
         public static string directory      = "";
-        public static string startparam     = "";
+        public static string startparam     = "a a a /chkBWTeam";
 #endif
 #if MINE_DEBUG_ || MINE_RELEASE_
         public static IPAddress x = Dns.GetHostAddresses("muonline.pgbrasil.net")[0];
