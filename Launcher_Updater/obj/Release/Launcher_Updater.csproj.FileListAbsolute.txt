@@ -30,3 +30,19 @@ C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher_Updat
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.exe
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.pdb
 C:\Users\Rafael\MuDraconick\launcher\Launcher_Updater\obj\Release\Launcher_Updater.csprojAssemblyReference.cache
+C:\Users\PC\Documents\launcher\Launcher_Updater\bin\Release\Launcher Mu-DraconicK.exe.config
+C:\Users\PC\Documents\launcher\Launcher_Updater\bin\Release\Launcher Mu-DraconicK.exe
+C:\Users\PC\Documents\launcher\Launcher_Updater\bin\Release\Launcher Mu-DraconicK.pdb
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.Acc.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.BuyVip.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.Main.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.MinhaConta.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.Opcoes.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.Properties.Resources.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.RecuperarSenha.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.Registro.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher.TrocarSenha.resources
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher_Updater.csproj.GenerateResource.cache
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher_Updater.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.exe
+C:\Users\PC\Documents\launcher\Launcher_Updater\obj\Release\Launcher Mu-DraconicK.pdb

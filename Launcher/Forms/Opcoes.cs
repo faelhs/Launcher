@@ -26,10 +26,13 @@ namespace Launcher
             int musica = 0;
             int efeitos = 0;
             int janela = 0;
-            if (rdres1.Checked) resolucao = 0;
-            if (rdres2.Checked) resolucao = 1;
-            if (rdres3.Checked) resolucao = 2;
-            if (rdres4.Checked) { resolucao = 3; resolucaoa = 1; }
+            int WideScreen = 0;
+            if (rdres1.Checked) { resolucao = 0; resolucaoa = 0; WideScreen = 0; }
+            if (rdres2.Checked) { resolucao = 1; resolucaoa = 0; WideScreen = 0; }
+            if (rdres3.Checked) { resolucao = 2; resolucaoa = 0; WideScreen = 0; }
+            if (rdres4.Checked) { resolucao = 3; resolucaoa = 1; WideScreen = 0; }
+            if (rdres5.Checked) { resolucao = 0; resolucaoa = 1; WideScreen = 1; }
+            if (rdres6.Checked) { resolucao = 1; resolucaoa = 1; WideScreen = 1; }
             if (ckmusica.Checked) musica = 1;
             if (ckefeitos.Checked) efeitos = 1;
             if (ckjanela.Checked) janela = 1;
@@ -43,6 +46,7 @@ namespace Launcher
             registryKey.SetValue("SoundOnOff", efeitos);
             registryKey.SetValue("ResolutionA", resolucaoa);
             registryKey.SetValue("WindowMode", janela);
+            registryKey.SetValue("WideScreenMode", WideScreen);
             registryKey.Close();
             MessageBox.Show("Configurações salvas");
             this.Dispose();
@@ -62,6 +66,7 @@ namespace Launcher
                 int musica = 0;
                 int efeitos = 0;
                 int janela = 0;
+                int widescreen = 0;
                 string id = "";
                 string PATH = @"Software\Webzen\Mu\Config";
                 RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(PATH);
@@ -73,6 +78,8 @@ namespace Launcher
                 efeitos = int.Parse(a);
                 a = registryKey.GetValue("WindowMode").ToString();
                 janela = int.Parse(a);
+                a = registryKey.GetValue("WideScreenMode").ToString();
+                widescreen = int.Parse(a);
                 id = registryKey.GetValue("ID").ToString();
 
                 tblogin.Text = id;
@@ -82,10 +89,13 @@ namespace Launcher
                 switch (resolucao)
                 {
                     case 0:
-                        rdres1.Checked = true;
+                        if (widescreen == 1) { rdres5.Checked = true; }
+                        else { rdres1.Checked = true; }
                         break;
                     case 1:
-                        rdres2.Checked = true;
+                        if (widescreen == 1) { rdres6.Checked = true; }
+                        else
+                        { rdres2.Checked = true; }
                         break;
                     case 2:
                         rdres3.Checked = true;

@@ -88,6 +88,9 @@
     <OutputPath>bin\Debug_Mine\</OutputPath>
     <DefineConstants>MINE_DEBUG_</DefineConstants>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -200,6 +203,7 @@
     <EmbeddedResource Include="Forms\TrocarSenha.resx">
       <DependentUpon>TrocarSenha.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

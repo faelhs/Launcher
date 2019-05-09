@@ -20,7 +20,7 @@ namespace Launcher
         public static int gsport = 55300;
         public static string BinaryName     = "MuOnline.exe";
         public static string directory      = "Bin";
-        public static string startparam     = "connect /u"+hostip+" /p"+loginport;
+        public static string startparam     = "connect /u"+hostip+" /p"+loginport+ " /chkBWTeam";
 #endif
 #if RAG_DEBUG_ || RAG_RELEASE_
         public static IPAddress x = Dns.GetHostAddresses("ragnarok.pgbrasil.net")[0];

@@ -17,3 +17,12 @@ C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Lister.csproj.GenerateRe
 C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Lister.csproj.CoreCompileInputs.cache
 C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Gerador de Updates.exe
 C:\Users\Rafael\MuDraconick\launcher\Lister\obj\Release\Gerador de Updates.pdb
+C:\Users\PC\Documents\launcher\Lister\bin\Release\Gerador de Updates.exe
+C:\Users\PC\Documents\launcher\Lister\bin\Release\Gerador de Updates.pdb
+C:\Users\PC\Documents\launcher\Lister\obj\Release\Lister.csprojAssemblyReference.cache
+C:\Users\PC\Documents\launcher\Lister\obj\Release\David.Lister.lForm.resources
+C:\Users\PC\Documents\launcher\Lister\obj\Release\David.Lister.Properties.Resources.resources
+C:\Users\PC\Documents\launcher\Lister\obj\Release\Lister.csproj.GenerateResource.cache
+C:\Users\PC\Documents\launcher\Lister\obj\Release\Lister.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\launcher\Lister\obj\Release\Gerador de Updates.exe
+C:\Users\PC\Documents\launcher\Lister\obj\Release\Gerador de Updates.pdb

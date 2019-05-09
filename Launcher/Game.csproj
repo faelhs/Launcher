@@ -78,9 +78,7 @@
   <PropertyGroup>
     <SignManifests>false</SignManifests>
   </PropertyGroup>
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
-  </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Mine|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug_Mine\</OutputPath>
@@ -102,6 +100,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -118,6 +119,12 @@
   <ItemGroup>
     <Compile Include="Button1.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl1.Designer.cs">
+      <DependentUpon>CustomControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Acc.cs">
       <SubType>Form</SubType>
@@ -190,6 +197,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="Updater\Common.cs" />
     <Compile Include="Updater\Computer.cs" />
     <Compile Include="Updater\CRCProcessor.cs" />
@@ -201,6 +209,9 @@
     <Compile Include="Updater\Networking.cs" />
     <Compile Include="Updater\Starter.cs" />
     <Compile Include="Updater\Texts.cs" />
+    <EmbeddedResource Include="CustomControl1.resx">
+      <DependentUpon>CustomControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Acc.resx">
       <DependentUpon>Acc.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,6 +247,7 @@
     <EmbeddedResource Include="Forms\TrocarSenha.resx">
       <DependentUpon>TrocarSenha.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

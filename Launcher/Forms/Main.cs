@@ -54,8 +54,8 @@ namespace Launcher
         }
         private void Status_server()
         {
-            while (true)
-            {
+           // while (true)
+            //{
 #if RAG_DEBUG_ || RAG_RELEASE_
                  try
                 {
@@ -75,9 +75,9 @@ namespace Launcher
                 {
                     SetText("Login server: Falha | GameServer: Falha");
                 }
-                Thread.Sleep(10000);
+                //Thread.Sleep(10000);
 #endif
-            }
+           // }
         }
         private void DefinirTexto(string texto)
         {
@@ -101,10 +101,10 @@ namespace Launcher
         private void Form1_Load(object sender, EventArgs e)
         {
            
-            Attualizar();
             this.server_status = new Thread(Status_server);
             this.server_status.Start();
             navegador.Navigate(Globals.sitelauncher);
+            Attualizar();
             if (Common.IsGameRunning()) { Common.EnableStart(); }
             
             if (Globals.logado)
@@ -148,7 +148,7 @@ namespace Launcher
 
         private void btconta_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://dash.PGBrasil.tk");
+            System.Diagnostics.Process.Start("http://muonline.pgbrasil.net");
         }
 
         private void btopcoes_Click(object sender, EventArgs e)
@@ -229,13 +229,13 @@ namespace Launcher
 
         private void Gosite_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://PGBrasil.tk");
+            System.Diagnostics.Process.Start("http://muonline.pgbrasil.net");
         }
 
         private void Goforum_Click(object sender, EventArgs e)
         {
 
-            System.Diagnostics.Process.Start("http://forum.PGBrasil.tk");
+            System.Diagnostics.Process.Start("http://muonline.pgbrasil.net");
         }
     }
 

@@ -17,3 +17,24 @@ C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.csproj.GenerateReso
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.csproj.CoreCompileInputs.cache
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.exe
 C:\Users\Rafael\MuDraconick\launcher\Launcher\obj\Debug\Game.pdb
+C:\Users\PC\Documents\launcher\Launcher\bin\Debug\Mu Draconick.ico
+C:\Users\PC\Documents\launcher\Launcher\bin\Debug\Game.exe.config
+C:\Users\PC\Documents\launcher\Launcher\bin\Debug\Game.exe
+C:\Users\PC\Documents\launcher\Launcher\bin\Debug\Game.pdb
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Game.csprojAssemblyReference.cache
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.CustomControl1.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Acc.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.BuyVip.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Forms.Site_Doar.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Forms.Doar.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Main.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.MinhaConta.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Opcoes.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Properties.Resources.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.RecuperarSenha.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.Registro.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Launcher.TrocarSenha.resources
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Game.csproj.GenerateResource.cache
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Game.exe
+C:\Users\PC\Documents\launcher\Launcher\obj\Debug\Game.pdb

@@ -34,8 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ckefeitos = new System.Windows.Forms.CheckBox();
             this.ckmusica = new System.Windows.Forms.CheckBox();
-            this.rdres1 = new System.Windows.Forms.RadioButton();
-            this.rdres2 = new System.Windows.Forms.RadioButton();
+            this.rdres6 = new System.Windows.Forms.RadioButton();
+            this.rdres5 = new System.Windows.Forms.RadioButton();
             this.rdres3 = new System.Windows.Forms.RadioButton();
             this.rdres4 = new System.Windows.Forms.RadioButton();
             this.btaplicar = new System.Windows.Forms.Button();
@@ -43,6 +43,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.ckjanela = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.rdres1 = new System.Windows.Forms.RadioButton();
+            this.rdres2 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -72,7 +74,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.label2.Font = new System.Drawing.Font("Impact", 12F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 89);
+            this.label2.Location = new System.Drawing.Point(6, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 20);
             this.label2.TabIndex = 3;
@@ -104,33 +106,33 @@
             this.ckmusica.Text = "Musica";
             this.ckmusica.UseVisualStyleBackColor = false;
             // 
-            // rdres1
+            // rdres6
             // 
-            this.rdres1.AutoSize = true;
-            this.rdres1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.rdres1.Font = new System.Drawing.Font("Impact", 10F);
-            this.rdres1.ForeColor = System.Drawing.Color.White;
-            this.rdres1.Location = new System.Drawing.Point(15, 121);
-            this.rdres1.Name = "rdres1";
-            this.rdres1.Size = new System.Drawing.Size(76, 22);
-            this.rdres1.TabIndex = 6;
-            this.rdres1.TabStop = true;
-            this.rdres1.Text = "640x480";
-            this.rdres1.UseVisualStyleBackColor = false;
+            this.rdres6.AutoSize = true;
+            this.rdres6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres6.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres6.ForeColor = System.Drawing.Color.White;
+            this.rdres6.Location = new System.Drawing.Point(140, 147);
+            this.rdres6.Name = "rdres6";
+            this.rdres6.Size = new System.Drawing.Size(79, 22);
+            this.rdres6.TabIndex = 6;
+            this.rdres6.TabStop = true;
+            this.rdres6.Text = "1366x768";
+            this.rdres6.UseVisualStyleBackColor = false;
             // 
-            // rdres2
+            // rdres5
             // 
-            this.rdres2.AutoSize = true;
-            this.rdres2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.rdres2.Font = new System.Drawing.Font("Impact", 10F);
-            this.rdres2.ForeColor = System.Drawing.Color.White;
-            this.rdres2.Location = new System.Drawing.Point(140, 121);
-            this.rdres2.Name = "rdres2";
-            this.rdres2.Size = new System.Drawing.Size(78, 22);
-            this.rdres2.TabIndex = 7;
-            this.rdres2.TabStop = true;
-            this.rdres2.Text = "800x600";
-            this.rdres2.UseVisualStyleBackColor = false;
+            this.rdres5.AutoSize = true;
+            this.rdres5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres5.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres5.ForeColor = System.Drawing.Color.White;
+            this.rdres5.Location = new System.Drawing.Point(15, 147);
+            this.rdres5.Name = "rdres5";
+            this.rdres5.Size = new System.Drawing.Size(78, 22);
+            this.rdres5.TabIndex = 7;
+            this.rdres5.TabStop = true;
+            this.rdres5.Text = "1280x720";
+            this.rdres5.UseVisualStyleBackColor = false;
             // 
             // rdres3
             // 
@@ -138,7 +140,7 @@
             this.rdres3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.rdres3.Font = new System.Drawing.Font("Impact", 10F);
             this.rdres3.ForeColor = System.Drawing.Color.White;
-            this.rdres3.Location = new System.Drawing.Point(15, 147);
+            this.rdres3.Location = new System.Drawing.Point(15, 125);
             this.rdres3.Name = "rdres3";
             this.rdres3.Size = new System.Drawing.Size(78, 22);
             this.rdres3.TabIndex = 8;
@@ -152,7 +154,7 @@
             this.rdres4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.rdres4.Font = new System.Drawing.Font("Impact", 10F);
             this.rdres4.ForeColor = System.Drawing.Color.White;
-            this.rdres4.Location = new System.Drawing.Point(140, 147);
+            this.rdres4.Location = new System.Drawing.Point(140, 125);
             this.rdres4.Name = "rdres4";
             this.rdres4.Size = new System.Drawing.Size(85, 22);
             this.rdres4.TabIndex = 9;
@@ -229,6 +231,34 @@
             this.label4.Text = "O P Ç Õ E S";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rdres1
+            // 
+            this.rdres1.AutoSize = true;
+            this.rdres1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres1.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres1.ForeColor = System.Drawing.Color.White;
+            this.rdres1.Location = new System.Drawing.Point(15, 104);
+            this.rdres1.Name = "rdres1";
+            this.rdres1.Size = new System.Drawing.Size(76, 22);
+            this.rdres1.TabIndex = 19;
+            this.rdres1.TabStop = true;
+            this.rdres1.Text = "640x480";
+            this.rdres1.UseVisualStyleBackColor = false;
+            // 
+            // rdres2
+            // 
+            this.rdres2.AutoSize = true;
+            this.rdres2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.rdres2.Font = new System.Drawing.Font("Impact", 10F);
+            this.rdres2.ForeColor = System.Drawing.Color.White;
+            this.rdres2.Location = new System.Drawing.Point(140, 104);
+            this.rdres2.Name = "rdres2";
+            this.rdres2.Size = new System.Drawing.Size(78, 22);
+            this.rdres2.TabIndex = 20;
+            this.rdres2.TabStop = true;
+            this.rdres2.Text = "800x600";
+            this.rdres2.UseVisualStyleBackColor = false;
+            // 
             // Opcoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,6 +266,8 @@
             this.BackgroundImage = global::Launcher.Properties.Resources.bg;
             this.ClientSize = new System.Drawing.Size(230, 306);
             this.ControlBox = false;
+            this.Controls.Add(this.rdres2);
+            this.Controls.Add(this.rdres1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.ckjanela);
             this.Controls.Add(this.label3);
@@ -243,8 +275,8 @@
             this.Controls.Add(this.btaplicar);
             this.Controls.Add(this.rdres4);
             this.Controls.Add(this.rdres3);
-            this.Controls.Add(this.rdres2);
-            this.Controls.Add(this.rdres1);
+            this.Controls.Add(this.rdres5);
+            this.Controls.Add(this.rdres6);
             this.Controls.Add(this.ckmusica);
             this.Controls.Add(this.ckefeitos);
             this.Controls.Add(this.label2);
@@ -266,8 +298,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox ckefeitos;
         private System.Windows.Forms.CheckBox ckmusica;
-        private System.Windows.Forms.RadioButton rdres1;
-        private System.Windows.Forms.RadioButton rdres2;
+        private System.Windows.Forms.RadioButton rdres6;
+        private System.Windows.Forms.RadioButton rdres5;
         private System.Windows.Forms.RadioButton rdres3;
         private System.Windows.Forms.RadioButton rdres4;
         private System.Windows.Forms.Button btaplicar;
@@ -275,5 +307,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox ckjanela;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RadioButton rdres1;
+        private System.Windows.Forms.RadioButton rdres2;
     }
 }

@@ -20,7 +20,7 @@ namespace QuantumConcepts.Common.Forms.UI.Controls
             if (ProgressBarRenderer.IsSupported)
                 ProgressBarRenderer.DrawHorizontalBar(e.Graphics, rec);
 
-            rec.Width = (int)(rec.Width * ((double)base.Value / Maximum)) - 0;
+            rec.Width = (int)(rec.Width * ((double)base.Value / Maximum)) - 1;
             rec.Height -= 0;
             brush = new LinearGradientBrush(rec, this.ForeColor, this.BackColor, LinearGradientMode.Vertical);
             e.Graphics.FillRectangle(brush, 0, 0, rec.Width, rec.Height);

@@ -73,9 +73,12 @@ namespace Launcher
             {
                 System.Net.Sockets.Socket sock = new System.Net.Sockets.Socket(System.Net.Sockets.AddressFamily.InterNetwork, System.Net.Sockets.SocketType.Stream, System.Net.Sockets.ProtocolType.Tcp);
                 sock.Connect(ipa, portno);
-                if (sock.Connected == true)  // Port is in use and connection is successful
+                if (sock.Connected == true) {
+                    sock.Close();
                     return "Online";
+                }  // Port is in use and connection is successful
                 sock.Close();
+
 
             }
             catch (System.Net.Sockets.SocketException ex)
